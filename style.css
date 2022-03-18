@@ -186,3 +186,19 @@ p
 	-ms-transform: rotate(-30deg);
 	transform: rotate(-30deg);
 }
+.cuello_corbata 
+{
+	width:40px;
+	height:40px;
+	background:#F00200;
+	border:5px solid #000;
+	position:absolute;
+	left:130px;
+	bottom:30px;
+	z-index:50;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
