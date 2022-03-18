@@ -229,3 +229,27 @@ p
 	border-top:5px solid #000; 
 	z-index:10;
 }
+.cinturon 
+{
+	width:40px;
+	height:15px;
+	position:absolute;
+	top:20px;
+	background:#000;
+}
+.cinturon.primero 
+{
+	left:20px;
+}
+.cinturon.segundo 
+{
+	left:90px;
+}
+.cinturon.tercero 
+{
+	right:80px;
+}
+.cinturon.cuarto 
+{
+	right:20px;
+}
