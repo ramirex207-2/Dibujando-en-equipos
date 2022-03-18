@@ -19,5 +19,58 @@ p
     position: relative;
     margin: 50px auto;
     overflow: hidden;
-    
+}
+/*ojos*/
+.ojos{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 210px;
+    z-index: 10;
+}
+.ojo{
+    background: #fff;
+    position: relative;
+    border: 5px solid #000;
+    width: 100px;
+    height: 100px;
+    margin-right: -17px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.ojo-externo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background: #00AEEF;
+    border: 3px #000;
+    top:50px;
+    left: 20px;
+}
+.ojo-interno{
+    width: 30px;
+    height: 30px;
+    background: #000;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+}
+.pestanas{
+    position: relative;
+    bottom: 28px;
+    left: 12px;
+
+}
+.pestana{
+    width: 15px;
+    height: 5px;
+    background: #000;
+    display: inline-block;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
