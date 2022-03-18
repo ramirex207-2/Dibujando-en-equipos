@@ -147,3 +147,109 @@ p
     left: 175px;
 
 }
+/*CAMISA*/
+.camisa 
+{
+	width:100%;
+	height:50px;
+	background:#fff;
+	position: absolute;
+	bottom:50px;
+	border-top:5px solid #000;
+	z-index:10;
+	overflow:hidden;
+}
+.cuello 
+{
+	width:50px;
+	height:30px;
+	position: absolute;
+	background:#fff;
+	top:-25px;
+	border:5px solid #000;
+	-moz-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+.cuello.primero 
+{
+	left:60px;
+}
+.cuello.segundo 
+{
+	left:180px;
+	-moz-transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-o-transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	transform: rotate(-30deg);
+}
+.cuello_corbata 
+{
+	width:40px;
+	height:40px;
+	background:#F00200;
+	border:5px solid #000;
+	position:absolute;
+	left:130px;
+	bottom:30px;
+	z-index:50;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.cola_corbata 
+{
+	width:55px;
+	height:55px;
+	background:#F00200;
+	border:5px solid #000;
+	position:absolute;
+	left:123px;
+	bottom:0px;
+	z-index:50;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+/*PANTALONES*/
+.pantalones 
+{
+	width:100%;
+	height:50px;
+	background:#6A3D13;
+	position: absolute;
+	bottom:0%;
+	border-top:5px solid #000; 
+	z-index:10;
+}
+.cinturon 
+{
+	width:40px;
+	height:15px;
+	position:absolute;
+	top:20px;
+	background:#000;
+}
+.cinturon.primero 
+{
+	left:20px;
+}
+.cinturon.segundo 
+{
+	left:90px;
+}
+.cinturon.tercero 
+{
+	right:80px;
+}
+.cinturon.cuarto 
+{
+	right:20px;
+}
