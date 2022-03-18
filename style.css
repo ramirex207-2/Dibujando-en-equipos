@@ -4,7 +4,7 @@ h1
     text-align: center;
 }
 h2{
-	color: royalblue;
+	color: rgb(7, 10, 49);
     text-align: center;
 }
 p
@@ -146,4 +146,8 @@ p
 .mejilla.segunda{
     left: 175px;
 
+}
+body{
+    background: url(https://media.biobiochile.cl/wp-content/uploads/2019/05/bikini-bottom.jpeg);
+    background-size: 100%;
 }
