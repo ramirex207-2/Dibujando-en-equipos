@@ -59,8 +59,8 @@ p
 }
 .pestanas{
     position: relative;
-    bottom: 28px;
-    left: 12px;
+    bottom: 23px;
+    left: 15px;
 
 }
 .pestana{
@@ -73,4 +73,60 @@ p
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+    margin-right: 10px;
+    
+}
+.pestana.prim{
+    position: relative;
+    top:10px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.pestana.ter{
+    position: relative;
+    top: 10px;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+/*nariz*/
+.nariz{
+    width: 20px;
+    height: 40px;
+    background: #f5EE31;
+    border: 5px solid #000;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+    z-index: 10;
+    border-bottom: 5px solid transparent;
+    border-radius: 42.5%;
+}
+.boca{
+    width: 200px;
+    height: 80px;
+    background: transparent;
+    position: absolute;
+    top: 120px;
+    right: 50px;
+    border-radius: 50%;
+    z-index: 10px;
+    border-bottom: 5px solid #000;
+}
+.dientes{
+    position: relative;
+    top: 80px;
+    left: 65px;
+}
+.diente{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 5px solid #000;
+    display: inline-block;
 }
