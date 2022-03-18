@@ -253,3 +253,37 @@ p
 {
 	right:20px;
 }
+.poro {
+	background:#C0A402;
+	height:40px;
+	width:40px;
+	position:absolute;
+	border-radius:50%;
+	z-index:1;
+}
+
+.poro.primero {
+	top:230px;
+	left:20px;
+	height:50px;
+	width:50px;
+}
+
+.poro.segundo {
+	top:200px;
+	left:280px;
+}
+
+.poro.tercero {
+	top:50px;
+	left:260px;
+	height:15px;
+	width:15px;
+}
+
+.poro.cuarto {
+	top:300px;
+	height:30px;
+	width:30px;
+	left:50px;
+}
