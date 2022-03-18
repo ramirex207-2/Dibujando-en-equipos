@@ -130,3 +130,20 @@ p
     border: 5px solid #000;
     display: inline-block;
 }
+.mejilla{
+    width: 30px;
+    height: 20px;
+    background: transparent;
+    position: absolute;
+    top: 30px;
+    border: 3px solid #f1592A;
+    border-bottom: 3px solid transparent;
+    border-radius: 50% 50% 20% 20%;
+}
+.mejilla.primera {
+    left: -15px;
+}
+.mejilla.segunda{
+    left: 175px;
+
+}
