@@ -253,3 +253,44 @@ p
 {
 	right:20px;
 }
+.pantalon.izq
+{   width: 40px;
+    border-top: solid transparent 0px;
+    border-left: solid transparent 15px;
+    border-right: solid transparent 15px;
+    border-bottom: solid #6A3D13 30px;
+    position: absolute;
+    top: 570px;
+    right: 530px;
+    border-radius: 20%;
+    
+}
+.pantalon.der
+{   width: 40px;
+    border-top: solid transparent 0px;
+    border-left: solid transparent 15px;
+    border-right: solid transparent 15px;
+    border-bottom: solid #6A3D13 30px;
+    position: absolute;
+    top: 570px;
+    right: 670px;
+    border-radius: 20%;
+}
+.pie.der
+{   width: 20px;
+    height: 40px;
+    background-color: #f5ee31;
+    position: absolute;
+    top: 600px;
+    right: 695px;
+    
+}
+.pie.izq
+{   width: 20px;
+    height: 40px;
+    background-color: #f5ee31;
+    position: absolute;
+    top: 600px;
+    right: 555px;
+    
+}
