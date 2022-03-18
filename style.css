@@ -147,3 +147,14 @@ p
     left: 175px;
 
 }
+/*CAMISA*/
+.camisa {
+	width:100%;
+	height:50px;
+	background:#fff;
+	position: absolute;
+	bottom:50px;
+	border-top:5px solid #000;
+	z-index:10;
+	overflow:hidden;
+}
